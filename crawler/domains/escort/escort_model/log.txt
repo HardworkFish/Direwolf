@@ -1,0 +1,61 @@
+Number of kernel evaluations: 202871021 (46.34% cached)
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                Class
+Variable      CLASS_0
+=====================
+pred         -15.5782
+Intercept      8.7434
+
+
+Odds Ratios...
+                Class
+Variable      CLASS_0
+=====================
+pred                0
+
+
+
+
+Time taken to build model: 581.12 seconds
+Time taken to test model on training data: 95.86 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances       23034               99.9696 %
+Incorrectly Classified Instances         7                0.0304 %
+Kappa statistic                          0.999 
+Mean absolute error                      0.0004
+Root mean squared error                  0.016 
+Relative absolute error                  0.1417 %
+Root relative squared error              4.1506 %
+Total Number of Instances            23041     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  4155     5 |     a = CLASS_0
+     2 18879 |     b = CLASS_1
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances       22587               98.0296 %
+Incorrectly Classified Instances       454                1.9704 %
+Kappa statistic                          0.9355
+Mean absolute error                      0.0206
+Root mean squared error                  0.1323
+Relative absolute error                  6.9722 %
+Root relative squared error             34.3904 %
+Total Number of Instances            23041     
+
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+  4107    53 |     a = CLASS_0
+   401 18480 |     b = CLASS_1
+
